@@ -9,11 +9,9 @@ package tn.isima.tp1;
  
  public static boolean isNumeric(String string) {
  Double intValue;
- System.out.println(String.format("Parsing string: 
-\"%s\"", string));
+ System.out.println(String.format("Parsing string: \"%s\"", string));
  if(string == null || string.equals("")) {
- System.out.println("String cannot be parsed, it 
-is null or empty.");
+ System.out.println("String cannot be parsed, it is null or empty.");
  return false;
  }
  
@@ -21,8 +19,7 @@ is null or empty.");
  intValue = Double.parseDouble(string);
  return true;
  } catch (NumberFormatException e) {
- System.out.println("Input String cannot be 
-parsed to Integer.");
+ System.out.println("Input String cannot be parsed to Integer.");
  }
  return false;
 }
