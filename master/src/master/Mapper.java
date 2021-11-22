@@ -1,4 +1,4 @@
-Package tn.isima.tp1;
+package tn.isima.tp1;
  import org.apache.hadoop.io.DoubleWritable;
  import org.apache.hadoop.io.Text;
  import org.apache.hadoop.mapreduce.Mapper;
